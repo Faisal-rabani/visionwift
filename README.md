@@ -6,9 +6,7 @@ A fully-featured, production-ready React homepage with a built-in **Accessibilit
 
 ## 🎬 Demo Video
 
-<video src="Ac.mp4" width="100%" controls autoplay muted loop>
-  Your browser does not support the video tag.
-</video>
+https://drive.google.com/file/d/1tlNLhVKXoj4n5d34rPsqcOyp9OdE5qMD/view?usp=sharing
 
 > **Watch the full demo above** to see all accessibility features in action — including the word-by-word TTS highlight, voice input filling form fields, contrast modes, and the sidebar panel.
 
