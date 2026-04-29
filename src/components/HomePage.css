@@ -1,0 +1,166 @@
+/* ═══════════════════════════════════════════════════════════════
+   HomePage — Layout & Global Styles
+   ═══════════════════════════════════════════════════════════════ */
+
+/* ── Skip link ──────────────────────────────────────────────────── */
+.skip-link {
+    position: absolute;
+    top: -100px;
+    left: 16px;
+    background: #1a56db;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 0 0 8px 8px;
+    font-weight: 700;
+    font-size: 14px;
+    z-index: 9999;
+    text-decoration: none;
+    transition: top 0.2s;
+}
+
+.skip-link:focus {
+    top: 0;
+    outline: 3px solid #93c5fd;
+    outline-offset: 2px;
+}
+
+/* ── Page wrapper ───────────────────────────────────────────────── */
+.page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: #f0f4f8;
+}
+
+/* ── Navigation ─────────────────────────────────────────────────── */
+.nav {
+    background: #fff;
+    border-bottom: 1px solid #e5e7eb;
+    position: sticky;
+    top: 0;
+    z-index: 900;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.06);
+}
+
+.nav__inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    /* Extra right padding so nav links don't sit under the accessibility button */
+    padding: 0 96px 0 80px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 800;
+    color: #0f172a;
+    letter-spacing: -0.02em;
+}
+
+.nav__logo:focus-visible {
+    outline: 3px solid #1a56db;
+    outline-offset: 4px;
+    border-radius: 4px;
+}
+
+.nav__links {
+    list-style: none;
+    display: flex;
+    gap: 8px;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: #374151;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 8px;
+    transition: background 0.15s, color 0.15s;
+}
+
+.nav__link:hover,
+.nav__link:focus-visible {
+    background: #eff6ff;
+    color: #1a56db;
+    outline: none;
+}
+
+/* ── Section divider ────────────────────────────────────────────── */
+.section-divider {
+    width: 100%;
+    background: #fff;
+    line-height: 0;
+}
+
+.section-divider svg {
+    display: block;
+    width: 100%;
+    height: 60px;
+}
+
+/* ── Form section ───────────────────────────────────────────────── */
+.form-section {
+    background: #f0f4f8;
+    padding: 48px 0 0;
+}
+
+.form-section__label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #6b7280;
+    margin-bottom: 24px;
+}
+
+/* ── Footer ─────────────────────────────────────────────────────── */
+.footer {
+    margin-top: auto;
+    background: #1e293b;
+    color: #94a3b8;
+    text-align: center;
+    padding: 24px;
+    font-size: 13px;
+}
+
+.footer a {
+    color: #60a5fa;
+    text-decoration: underline;
+}
+
+.footer a:hover,
+.footer a:focus-visible {
+    color: #93c5fd;
+    outline: 2px solid #60a5fa;
+    outline-offset: 2px;
+    border-radius: 2px;
+}
+
+/* ── Responsive ─────────────────────────────────────────────────── */
+@media (max-width: 900px) {
+    .nav__inner {
+        padding: 0 72px 0 24px;
+    }
+}
+
+@media (max-width: 600px) {
+    .nav__inner {
+        padding: 0 64px 0 16px;
+    }
+
+    .nav__logo span {
+        display: none;
+    }
+}
