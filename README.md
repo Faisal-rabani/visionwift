@@ -6,9 +6,25 @@ A fully-featured, production-ready React homepage with a built-in **Accessibilit
 
 ## 🎬 Demo Video
 
-https://github.com/user-attachments/assets/Ac.mp4
+<video src="Ac.mp4" width="100%" controls autoplay muted loop>
+  Your browser does not support the video tag.
+</video>
 
 > **Watch the full demo above** to see all accessibility features in action — including the word-by-word TTS highlight, voice input filling form fields, contrast modes, and the sidebar panel.
+
+---
+
+### 📌 If the video does not play above, click below to download and watch:
+
+**[▶ Download & Watch Demo (Ac.mp4)](./Ac.mp4)**
+
+---
+
+> **For GitHub users:** After pushing to GitHub, replace the video section with:
+> ```
+> https://github.com/YOUR_USERNAME/YOUR_REPO/assets/YOUR_ASSET_ID/Ac.mp4
+> ```
+> GitHub auto-embeds `.mp4` links when pasted directly into the README.
 
 ---
 
